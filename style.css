@@ -27,35 +27,47 @@ body {
 div {
     background-color: var(--dark-grey);
     color: var(--white);
-    width: 384;
+    width: 384px;
     border-radius: 12px;
     padding: 40px;
-
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
 
 }
 
 img {
-    width: 88p;
     border-radius: 50%;
     margin-bottom: 24px;
-
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 h1 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 4px;
-
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
 }
 
 strong {
     color: var(--neon-green);
     font-size: 14px;
+    text-align: center;
+
 }
 
 p {
    margin-block: 24px;
    font-size: 14px;
+   text-align: center;
 }
 
 
@@ -73,7 +85,7 @@ a {
     font-size: 14px;
     font-weight: 700;
     border-radius: 8px;
-
+    text-align: center;
 }
 
 a:hover {
